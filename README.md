@@ -2,10 +2,10 @@
 
 XSS Vulnerability discovered in Trend iq3xcite v2.31-3.05. Fixed in 3.11.
 
-When accessing an arbitrary directory e.g. /test/, this will trigger the 404 error page to be returned.
+When accessing an arbitrary directory e.g. `/test/`, this will trigger the 404 error page to be returned.
 Any data put after the directory is not sanitized by the application and is returned verbose, allowing for injection of JavaScript.
 
-e.g. /test/<script>alert(1)</script>
+e.g. `/test/<script>alert(1)</script>`
 
 
 ## Version 2.31
