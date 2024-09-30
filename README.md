@@ -1,4 +1,5 @@
 # iq3xcite-XSS-2.31-3.05
+# [CVE-2024-46453](https://www.cve.org/CVERecord?id=CVE-2024-46453)
 
 XSS Vulnerability discovered in Trend iq3xcite v2.31-3.05. Fixed in 3.11.
 
